@@ -1,0 +1,15 @@
+def soma (x,y):
+    return (x+y)
+def multiplicacao(x,y):
+    return x*y
+s = soma(2,3)
+b = multiplicacao(4,2)
+print(s)
+print(b)
+print(soma(s,b))
+
+
+
+
+
+

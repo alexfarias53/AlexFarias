@@ -1,0 +1,37 @@
+import getpass
+passoword = 1234
+acertou = "nao"
+print("+++++++++++++++++++++ Seja bem vindo ++++++++++++++++++++++++++++++")
+while acertou == "nao":
+  nome = input("Digite seu nome")
+  print("Usuario aceito ", nome)
+  senha = int(getpass.getpass("Agora digite sua senha:"))
+  if senha == passoword:
+    print("usuario aceito :-)")
+    acertou = "sim"
+    quit()
+  print("Senha errada!! :-(")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
